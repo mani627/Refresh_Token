@@ -10,6 +10,8 @@ const Auth=require("./Auth")
 app.use(express.json());
 
 
+console.log("sec");
+
 // Login
 app.post('/Login', (req, res) => {
     try {
